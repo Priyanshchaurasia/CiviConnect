@@ -118,7 +118,7 @@ Backend:
 
  # Project Sturcture
 
- CivicConnect/
+CivicConnect/
 │
 ├── frontend/
 │   ├── index.html
@@ -126,15 +126,25 @@ Backend:
 │   ├── script.js
 │   ├── schemes.html
 │   ├── schemes.css
-│   └── gov-contacts.html
+│   ├── gov-contacts.html
+│   └── images/
 │
 ├── backend/
 │   ├── (server files – API, database, configs)
 │
-├── images/
 ├── README.md
 
+
 # How to Run the Project
+
+FRONTEND - C:\Users\Desktop\CiviConnect\frontend> python -m http.server 5500
+
+BACKEND - C:\Users\Desktop\CiviConnect\backend> npm install
+BACKEND - C:\Users\Desktop\CiviConnect\backend> node server.js
+
+OPEN ANY WEB BROWSER AND RUN localhost:5500
+
+/*NOTE- THE PROJECT WORKS PERFECTLY USING THE FRONTEND , BACKEND IS USED FOR FUTURE ENHANCEMENTS AND IS ALREADY CONNECTED TO THE FRONTEND*/
 
 -Clone the repository
 -Start the backend server (as per backend setup instructions)
